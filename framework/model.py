@@ -173,7 +173,6 @@ def save(data, path):
     data 是 dict 或者 list
     path 是保存文件的路径
     """
-    # json 是一个序列化/反序列化(上课会讲这两个名词) list/dict 的库
     # indent 是缩进
     # ensure_ascii=False 用于保存中文
     log('save 当前工作目录和数据相对路径 {} {}'.format(os.getcwd(), path))
